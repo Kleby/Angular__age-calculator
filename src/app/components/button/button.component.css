@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100%;
 
 }
 
@@ -22,14 +23,18 @@
 .container__button > button{
     border: none;
     background-color: #854dff;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
 }
 
-
+.container__button > button:hover {
+    background-color: #141414;
+    transition: 300ms ease;
+}
 
 .container__button > button > img{
     max-width: 100%;
     width: 50%;
 }
+

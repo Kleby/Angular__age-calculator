@@ -1,3 +1,29 @@
 .container__input{
+    /* max-width: 10vw; */
+    max-width: 100%;
+}
+
+.container__input > .input-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.container__input > .input-content > label{
     color:#716f6f;
+    font-size: .8rem;
+    padding-top: 10px;
+    margin-bottom: 0.25rem;
+}
+
+.container__input > .input-content > input{
+    padding: 2vw 3vw;
+    max-width: 100%;
+    width: 90%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    border: solid 1px #000;
+
+    border-radius: 10px;
 }
