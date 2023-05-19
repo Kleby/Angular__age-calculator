@@ -1,0 +1,35 @@
+.container__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container__button::after{
+    content: '';
+    height: 2px;
+    width: 45%;
+    background-color:#dbdbdb;
+}
+.container__button::before{
+    content: '';
+    height: 2px;
+    width: 45%;
+    background-color: #dbdbdb;
+}
+.container__button > button{
+    border: none;
+    background-color: #854dff;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+
+
+.container__button > button > img{
+    max-width: 100%;
+    width: 50%;
+}

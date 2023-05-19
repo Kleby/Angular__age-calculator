@@ -1,0 +1,24 @@
+.container__home{
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    width: 100%;
+    padding: 22px 32px;
+}
+
+.container__home > .home-output{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container__home > .home-output > h2{
+    color: #141414;
+    font-style: italic;
+}
+
+ .container__home > .home-output > h2 > .output-number{
+    color: #854dff;
+ }
